@@ -1,0 +1,8 @@
+views:
+  - name: orders2
+ 
+    cubes:
+      - join_path: Orders
+        includes: "*"
+        excludes:
+          - status
